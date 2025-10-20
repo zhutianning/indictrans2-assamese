@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-10-21T01:04:24.582406",
+  "model_path": "outputs\\assamese_english_lora_cuda_fixed_20251021_005208",
+  "test_samples": 20,
+  "metrics": {
+    "BLEU": 0.0,
+    "chrF": 0.0
+  },
+  "samples": [
+    {
+      "source": "What is called Shadow Cabinet ?",
+      "reference": "ছায়া মন্ত্রীসভা কাক বােলে ?",
+      "prediction": ""
+    },
+    {
+      "source": "15 Jesus was not afraid to die for upholding Jehovah’s sovereignty .",
+      "reference": "১৫ যিহোৱাৰ আধিপত্যক বজাই ৰাখিবলৈ যীচুৱে মৃত্যুকো ভয় নকৰিলে ।",
+      "prediction": ""
+    },
+    {
+      "source": "Which of the following is not carried out in Post Active Phase of Teaching ?",
+      "reference": "শিক্ষণৰ সক্রিয়ােত্তৰ স্তৰত তলৰ কোনটো কার্য কৰা নহয় ?",
+      "prediction": ""
+    },
+    {
+      "source": "And Elam bare the quiver with chariots of men and horsemen , and Kir uncovered the shield .",
+      "reference": "এলমে ৰথ আৰু অশ্বাৰোহীৰ সৈতে তূণ লৈ গৈছে , আৰু কীৰ ঢাল খুলিছে ।",
+      "prediction": ""
+    },
+    {
+      "source": "Can two walk together , except they be agreed ?",
+      "reference": "এক পৰামৰ্শ নহলে দুজনে জানো একেলগে খোজ কাঢ়ে ?",
+      "prediction": ""
+    },
+    {
+      "source": "a barrier framed by sticks or with other means .",
+      "reference": "খুঁটিৰে তৈয়াৰ কৰা বা অন্যধৰণেৰে সৃষ্টি কৰা বাধা বা বেৰা ।",
+      "prediction": ""
+    },
+    {
+      "source": "And Jehoiada made a covenant between the  Lord  and the king and the people , that they should be the  Lord s  people ; between the king also and the people .",
+      "reference": "তাৰ পাছত যিহোয়াদাই যিহোৱা , ৰজা যোৱাচ আৰু প্রজাসকলৰ মাজত এক চুক্তি কৰিলে । এই চুক্তিত কোৱা হ’ল যে , ৰজা আৰু প্রজা উভয়েই যিহোৱাৰ লোক হৈ চলিব । তেওঁ ৰজা আৰু প্রজা পৰস্পৰৰ মাজতো এক চুক্তি কৰিলে ।",
+      "prediction": ""
+    },
+    {
+      "source": "He said that the first pre - requisite of success is courage .",
+      "reference": "প্ৰধানমন্ত্ৰীয়ে কয় যে সফলতাৰ বাবে প্ৰথম প্ৰয়োজন হৈছে সাহস ।",
+      "prediction": ""
+    },
+    {
+      "source": "Although the stars could be huge distances from one another , their relative positions remain fixed from earth’s perspective .",
+      "reference": "তেওঁৰ কাৰ্য্যবোৰে প্ৰকাশ কৰেনে , যে তেওঁ সঁচাকৈ দুষ্টতাক ঘৃণা কৰে ?",
+      "prediction": ""
+    },
+    {
+      "source": "And he saith unto me , The waters which thou sawest , where the whore sitteth , are peoples , and multitudes , and nations , and tongues .",
+      "reference": "সেই দূত জনে মোক আকৌ ক’লে , তুমি যি পানী দেখিলা , য’ত সেই বেশ্যা বহি আছে , সেই পানীবোৰেই অনেক প্ৰজা , সাধাৰণ লোক , সকলো জাতি আৰু ভাষাৰ লোক সকল ।",
+      "prediction": ""
+    }
+  ]
+}

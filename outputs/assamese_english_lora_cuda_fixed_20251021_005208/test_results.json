@@ -1,0 +1,8 @@
+{
+  "test_results": [],
+  "total_samples": 0,
+  "timestamp": "2025-10-21T00:55:04.522703",
+  "model_type": "IndicTrans2_LoRA_CUDA_Fixed",
+  "format": "Official_format",
+  "device": "cuda"
+}
