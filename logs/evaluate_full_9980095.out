@@ -1,0 +1,73 @@
+==========================================
+作业开始时间: Thu Oct 23 17:31:00 CEST 2025
+作业 ID: 9980095
+节点: s196
+GPU: 0
+==========================================
+Changed to script directory: /home/tizh1048/MT/indictrans2-assamese
+Python 版本: Python 3.9.23
+PyTorch 版本: 2.6.0+cu124
+CUDA 可用: True
+开始全量微调模型简化评估...
+使用设备: cuda, dtype: torch.float16
+加载 tokenizer ...
+加载模型: /proj/uppmax2025-3-5/nobackup/tizh1048/MT/Group_project/outputs/assamese_english_full_ft_20251023_020135/checkpoint-4000
+detected META tensors after from_pretrained → falling back to manual load
+missing keys: 1 (展示最多5条)：['lm_head.weight']
+模型加载完成并已迁移到设备
+start token id 修改完成
+加载数据 ...
+样本数: 150
+开始生成 ...
+已生成 5/150
+已生成 10/150
+已生成 15/150
+已生成 20/150
+已生成 25/150
+已生成 30/150
+已生成 35/150
+已生成 40/150
+已生成 45/150
+已生成 50/150
+已生成 55/150
+已生成 60/150
+已生成 65/150
+已生成 70/150
+已生成 75/150
+已生成 80/150
+已生成 85/150
+已生成 90/150
+已生成 95/150
+已生成 100/150
+已生成 105/150
+已生成 110/150
+已生成 115/150
+已生成 120/150
+已生成 125/150
+已生成 130/150
+已生成 135/150
+已生成 140/150
+已生成 145/150
+已生成 150/150
+
+计算评估指标 ...
+BLEU: 8.9175
+chrF: 28.1104
+完成，结果已写入: /proj/uppmax2025-3-5/nobackup/tizh1048/MT/Group_project/outputs/assamese_english_full_ft_20251023_020135/simple_evaluation_results.json
+
+=== 样本结果（最多3条） ===
+
+SRC: মোৰ লোকসকলে শান্তিপূর্ণ বাসস্থানত , নিৰাপত্তাহীন ঘৰবোৰত , আৰু শান্তিপূর্ণ বিশ্ৰামৰ ঠাইবোৰত বাস কৰিব ।
+REF: And my people shall dwell in a peaceable habitation , and in sure dwellings , and in quiet resting places ;
+PRED: .. My people in peace, in peaceable habitations, in secure homes, and in peace
+
+SRC: কৰ্কট ৰোগ আৰু হেপাটাইটিছ বি-ত ভুগি থকা ৰোগীসকলক লক্ষ্য কৰি ঔষধৰ বাবে ভাৰতত 2500 ৰো অধিক সক্ৰিয় পৰীক্ষণ চলি আছে বুলি কোৱা হৈছে ।
+REF: Over 2500 active trials are said to be underway in India for drugs aimed at patients suffering from cancer and hepatitis B among other things .
+PRED: .. Medication for patients with cricket disease and hepatitis B
+
+SRC: হনোক এজন সাহসী পুৰুষ আছিল ।
+REF: The Bible says :  “ Gray - headedness is a crown of beauty when it is found in the way of righteousness . ”
+PRED: .. And Enoch was a mighty man of valour.
+==========================================
+评估完成: Thu Oct 23 17:34:50 CEST 2025
+==========================================

@@ -2,7 +2,7 @@
 
 ## 📋 项目概述
 
-本项目使用 `ai4bharat/indictrans2-indic-en-dist-200M` 模型对阿萨姆语到英语的翻译进行微调。项目基于 WMT 2025 Indic MT Task 数据集，使用 LoRA (Low-Rank Adaptation) 技术进行高效微调。
+本项目使用 `ai4bharat/indictrans2-indic-en-dist-200M` 模型对阿萨姆语到英语的翻译进行微调。项目基于 WMT 2025 Indic MT Task 数据集，分别使用 LoRA (Low-Rank Adaptation) 进行高效微调全量参数训练。
 
 ## 🎯 项目目标
 
@@ -72,9 +72,10 @@
    python organized_scripts/preprocess_indictrans2_fixed.py
    ```
 
-6. **运行模型微调**
+6. **分别运行lora模型&全量微调**
    ```bash
    python organized_scripts/finetune_lora_cuda_fixed.py
+   python organized_scripts/finetune_full_cuda.py  
    ```
 
 ### 服务器部署
@@ -117,11 +118,10 @@
 ### ⚠️ 部分完成
 - [x] 模型训练 (成功)
 - [ ] 模型推理 (存在生成错误)
-- [ ] 评估指标计算 (依赖推理修复)
+- [x] 评估指标计算 (依赖推理修复)
 
 ### ❌ 待解决
 - [ ] 模型生成错误修复
-- [ ] BLEU/chrF 分数计算
 - [ ] 生产环境部署
 
 ## 🔧 技术栈
